@@ -1,0 +1,17 @@
+pkgbase = zoomdoctor
+	pkgdesc = Diagnosis tool to prevent misconfiguration of headset, microphone, and webcam for video calls
+	pkgver = 0.1
+	pkgrel = 1
+	url = https://github.com/claui/zoomdoctor
+	arch = any
+	license = Apache
+	depends = bluez-utils
+	depends = libpulse
+	depends = pulseaudio
+	depends = systemd
+	noextract = zoomdoctor-0.1.tar.gz
+	options = !strip
+	source = zoomdoctor-0.1.tar.gz::https://github.com/claui/zoomdoctor/archive/refs/tags/v0.1.tar.gz
+	sha512sums = 1e6b0066e4577b1b34617d1930635e2cd2a56829861e2d0589eb78541004c6ff6a4feeeac5b7965e137691a20bf35e5732685bde825ec8f876768d542a6561d5
+
+pkgname = zoomdoctor
